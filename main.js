@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function findLongestWordLength(str) {
     let words = str.split(' ');
     let maxLength = 0;
@@ -11,3 +12,6 @@ function findLongestWordLength(str) {
   }
   findLongestWordLength("The quick brown fox jumped over the lazy dog");
   
+=======
+console.log('connected?')
+>>>>>>> 70bd001f24ecc0162cef434d9bd275db70358930
