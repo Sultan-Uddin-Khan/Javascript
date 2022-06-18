@@ -2,7 +2,8 @@
 const computerChoiceElm=document.querySelector('#computer-choice')
 const yourChoiceElm=document.querySelector('#your-choice')
 const resultElm=document.querySelector('#result')
-const possibleChoices=document.querySelectorAll('button')
+const resetbtnElm=document.querySelector('#Reset')
+const possibleChoices=document.querySelectorAll('.button')
 let yourChoice;
 let computerChoice;
 let result;
@@ -30,5 +31,15 @@ function getResult(){
     if(computerChoice==='Scissors' && computerChoice==='Paper'){result="You lose"} 
     resultElm.textContent=result;
 }
+
+function resetValues(){
+    computerChoice='';
+    yourChoice='';
+    result='';
+    resultElm.textContent=result;
+    computerChoiceElm.textContent=computerChoice;
+    yourChoiceElm.textContent=yourChoice;
+}
+resetbtnElm.addEventListener('click',resetValues);
 
 

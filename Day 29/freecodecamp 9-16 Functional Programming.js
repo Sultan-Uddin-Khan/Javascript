@@ -312,16 +312,3 @@ const watchList2 = [
   
   console.log(getRating(watchList2));
 
-  //Problem 16
-  const squareList = arr => {
-    // Only change code below this line
-    const posArr = arr.filter(num => num > -1 && num==parseInt(num));
-    return posArr.map(function (x) {
-        return Math.pow(x, 2);
-      });
-    return arr;
-    // Only change code above this line
-  };
-  
-  const squaredIntegers = squareList([-3.7, -5, 3, 10, 12.5, 7, -4.5, -17, 0.3]);
-  console.log(squaredIntegers);
