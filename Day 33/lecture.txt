@@ -1,0 +1,24 @@
+//Projects Development Primer
+//1) Have clear ideas about your project
+//2) Get Assets ready
+//3) Follow the flow
+//   -putting input
+//   -submit content
+//   -adding item to the UI
+//   -delete item
+//   -remove item from an UI
+//   -putting input on search box
+//   -show item based on search input
+
+//CRUD(Heart of every application)
+// C-CREATE (storing data to remote source)
+// R-READ (Data source -UI(visual))
+// U-UPDATE (modifying the existing resources)
+// D-DELETE (removing information)
+
+// console.log("connected")
+
+//Data storage
+//memory (temporary)
+//database
+// localStorage, sessionStorage
